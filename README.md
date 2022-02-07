@@ -71,5 +71,5 @@ real    0m0.039s
 user    0m0.012s
 sys     0m0.006s
  ```
-With the native image executable, the same query returns a value in only **39ms**. 
+With the native image executable, the same query returns a value in only **39ms** (your time may vary). 
  
