@@ -32,7 +32,7 @@ $ sudo rpm -ihv oracle-instantclient-basic-21.5.0.0.0-1.el8.x86_64.rpm
  Clone this repository:
  
  ```
- $ git clone 
+ $ git clone https://github.com/swseighman/Oracle-Spring-GraalVM.git
  ```
  
  Build the project:
