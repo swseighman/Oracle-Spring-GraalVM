@@ -21,7 +21,7 @@ public class DataSourceSample {
   // final static String DB_PASSWORD = "mysecurepassword";
 
   public static void main(String args[]) throws SQLException {
-    String query = "SELECT * FROM DUAL";
+    String query = "SELECT * FROM all_users";
     if(args.length > 0) {
       query = args[0];
     }

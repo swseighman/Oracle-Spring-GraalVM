@@ -44,13 +44,12 @@ $ sudo rpm -ihv oracle-instantclient-basic-21.5.0.0.0-1.el8.x86_64.rpm
  Run the example:
  ```
 $ time java -jar target/datasourcesample-0.0.1-SNAPSHOT.jar "SELECT TO_CHAR (SYSDATE, 'MM-DD-YYYY HH24:MI:SS') \"NOW\" FROM DUAL"
-no main manifest attribute, in target/datasourcesample-0.0.1-SNAPSHOT.jar
 
-real    0m0.372s
-user    0m0.053s
-sys     0m0.042s
+real    0m1.036s
+user    0m2.017s
+sys     0m0.261s
  ```
-Notice the SELECT takes **372ms** to return a value (your time may vary).
+Notice the SELECT takes **1036ms** to return a value (your time may vary).
 
  Now build the native image executable:
  ```
